@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e126204-779c-4129-bb22-5f36c3d15631" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tdd/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tdd/Bike.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/tdd/BikeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tdd/BikeTest.java" afterDir="false" />
     </list>
@@ -48,7 +49,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BikeTest.bikeCanBeAcceleratedOnGearTwoTest">
+  <component name="RunManager" selected="JUnit.BikeTest">
     <configuration name="BikeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="flyingBike" />
       <extension name="coverage">
@@ -60,22 +61,6 @@
       <option name="PACKAGE_NAME" value="tdd" />
       <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BikeTest.bikeCanBeAcceleratedOnGearOneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="flyingBike" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
-      <option name="METHOD_NAME" value="bikeCanBeAcceleratedOnGearOneTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,13 +113,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BikeTest.bikecanChangeFromGearTwoToGearThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="flyingBike" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tdd" />
+      <option name="MAIN_CLASS_NAME" value="tdd.BikeTest" />
+      <option name="METHOD_NAME" value="bikecanChangeFromGearTwoToGearThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BikeTest" />
+        <item itemvalue="JUnit.BikeTest.bikecanChangeFromGearTwoToGearThree" />
         <item itemvalue="JUnit.BikeTest.bikeCanBeAcceleratedOnGearTwoTest" />
         <item itemvalue="JUnit.BikeTest.bikeCanChangeFromGearOneToGearTwoAutomatically" />
         <item itemvalue="JUnit.BikeTest.bikeCanBeTurenedOffTest" />
-        <item itemvalue="JUnit.BikeTest" />
-        <item itemvalue="JUnit.BikeTest.bikeCanBeAcceleratedOnGearOneTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661174503358</updated>
-      <workItem from="1661174505329" duration="5566000" />
+      <workItem from="1661174505329" duration="8523000" />
     </task>
     <servers />
   </component>

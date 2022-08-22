@@ -75,7 +75,22 @@ public class BikeTest {
         assertEquals(21, bike.getSpeed());
 
         bike.increaseSpeed();
-        assertEquals(23, bike.getSpeed());
+        bike.increaseSpeed();
+        assertEquals(25, bike.getSpeed());
         assertEquals(2, bike.getGear());
+    }
+
+    @Test
+    public void bikecanChangeFromGearTwoToGearThree(){
+        bike.turnOn();
+        for(int x = 0; x < 25; x++){
+            bike.increaseSpeed();
+        }
+        assertEquals(29, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+
+        bike.increaseSpeed();
+        assertEquals(3, bike.getGear());
+        assertEquals(31, bike.getSpeed());
     }
 }
