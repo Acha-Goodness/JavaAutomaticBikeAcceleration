@@ -27,10 +27,15 @@ public class Bike {
     }
     public void increaseSpeed() {
         if(isOn){
-            speed++;
-        }
-        if(speed > 20){
-            gear++;
+            if(gear == 2){
+                speed += 2;
+            }
+            if(gear == 1){
+                speed++;
+                if(speed > 20){
+                    gear++;
+                }
+            }
         }
     }
 }

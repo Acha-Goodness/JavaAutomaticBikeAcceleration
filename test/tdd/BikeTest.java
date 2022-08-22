@@ -64,4 +64,18 @@ public class BikeTest {
         bike.increaseSpeed();
         assertEquals(2, bike.getGear());
     }
+
+    @Test
+    public void bikeCanBeAcceleratedOnGearTwoTest(){
+        bike.turnOn();
+        for(int x = 0; x < 21; x++){
+            bike.increaseSpeed();
+        }
+        assertEquals(2, bike.getGear());
+        assertEquals(21, bike.getSpeed());
+
+        bike.increaseSpeed();
+        assertEquals(23, bike.getSpeed());
+        assertEquals(2, bike.getGear());
+    }
 }
