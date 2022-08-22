@@ -8,7 +8,7 @@ public class BikeTest {
     private Bike bike;
 
     @BeforeEach
-    public void startWith(){
+    public void setUp(){
         bike = new Bike();
     }
 
